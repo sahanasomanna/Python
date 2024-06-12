@@ -1,0 +1,8 @@
+//Find 2nd highest value in array
+
+arr.sort()
+arr.reverse()
+for x in range(1,len(arr)):
+    if arr[0] != arr[x]:
+        print(arr[x])
+        break
