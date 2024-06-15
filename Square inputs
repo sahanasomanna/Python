@@ -1,0 +1,9 @@
+    n = int(input())
+    for x in range(0,n):
+        print(x * x)
+
+n = list(map(int, input("Enter elements separated by space:").split()))
+print(n)
+for x in n:
+    if int(x) > 0:
+        print(int(x) * int(x))
